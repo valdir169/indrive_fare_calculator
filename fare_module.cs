@@ -89,13 +89,13 @@ public class FareCalculator
 
         if (discount > 0)
         {
-            Console.WriteLine($"Descuento por distancia: ${discount}");
+            Console.WriteLine($"Descuento por distancia: ${discount:F2}");
         } else
         {
             Console.WriteLine("Descuento por distancia: No aplica");
         }
 
         Console.WriteLine("\n===================================");
-        Console.WriteLine($"Tarifa final: ${final_fare}");
+        Console.WriteLine($"Tarifa final: ${final_fare:F2}");
     }
 }
